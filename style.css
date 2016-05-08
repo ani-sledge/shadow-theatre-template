@@ -1,0 +1,223 @@
+/* GENERAL */ 
+html, body {
+  /*height: 100%;*/ 
+  background-color: #282828;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+h1, .h1 {
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-size: 40px; 
+}
+
+h3, .h3 { 
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif; 
+  font-size: 25px; 
+}
+
+/* NAVIGATION */ 
+.navbar-inverse {
+  margin-bottom: 0; 
+  font-size: 20px; 
+  text-shadow: none; 
+  background-color: #181818;
+}
+
+a.main {
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-size: 25px; 
+}
+
+li.dropdown-header {
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-size: 20px; 
+}
+
+div.navbar-header a.navbar-brand { padding-left: 30px; }
+
+/* CONTENT */ 
+
+.img-circle {
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+blockquote { font-size: 20px; }
+
+/* BUTTONS */ 
+.btn-default {
+  background-color: #999;
+  border-color: #777; 
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-size: 20px; 
+}
+.btn-lg { font-size: 22px; }
+
+.jumbotron {
+  margin-top: 30px; 
+  background-color: black; 
+}
+
+.jumbotron a {
+  text-decoration: none; 
+  color: white; 
+}
+.jumbotron a:hover, .jumbotron a:focus {
+  text-decoration: none;
+  color: #9d9d9d; 
+}
+
+/* SLIDESHOW */ 
+div.carousel-inner div.item img { min-height: 250px; } 
+#previous { left: 10%; }
+#next { right: 10%; }
+
+#previous, #next {
+  position: absolute;
+  top: 40%;
+}
+
+#googleMap, #contactForm, #newsletterForm, #productionPhotos { padding-top: 30px; }
+#googleMap, #productionPhotos, #jumbotron { text-align: center; }
+
+/* VIDEO MODAL */ 
+.modal-content { background-color: black; }
+
+.modal-footer {
+  background-color: #4a4558; 
+  border-top: #282828; 
+}
+
+.modal a { color: white; }
+
+/* CALENDAR TABLE */ 
+th { 
+  width: 45px; 
+  text-align: center;
+  text-shadow: none;  
+} 
+
+.calendar-icon {
+  width: 51px; 
+  margin: 0px; 
+  border: 1px solid #585858; 
+  border-radius: 5px; 
+}
+
+.calendar-icon .panel-heading {
+  padding: 0px; 
+  color: black;
+  background-color: #6e6383; 
+  border-bottom: 1px solid #585858; 
+}
+
+.calendar-icon .panel-body {
+  color: #d9d9d9; 
+  padding: 0px;
+  background-color: #282828; 
+}
+
+.calendar-icon p {
+  font-size: 10px; 
+  margin: 0; 
+}
+.calendar-icon p.day { font-size: 20px; }
+
+table { color: #9d9d9d; } 
+
+table .panel-collapse div { color: white; } 
+
+table a {
+  color: white; 
+  text-decoration: none; 
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+table a.btn, table a.btn:hover, table a.btn:focus { text-shadow: none; } 
+
+table a:hover, table a:focus {
+  color: #9d9d9d; 
+  text-decoration: none; 
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/* FOOTER */ 
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 150px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 150px;
+  color: black; 
+  text-shadow: none;
+}
+
+#footer-top {
+  /*margin-top: 20px; */ 
+  padding: 15px; 
+  background-color: #4a4558; 
+}
+
+#money-btn {
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  text-align: center; 
+}
+
+#social-media {
+  text-align: right;
+  margin-top: -15px; 
+}
+
+#footer-bottom {
+  padding: 18px; 
+  background-color: #6e6383; 
+}
+
+footer a {
+  color: black; 
+  font-size: 15px; 
+  text-decoration: none; 
+}
+
+footer a:hover, footer a:focus {
+  color: white; 
+  text-decoration: none; 
+}
+
+footer img, #contact-social-media img { width: 30px; }
+
+/* MEDIA QUERIES */ 
+@media (min-width: 768px) {
+    nav a.main {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .navbar-nav li .dropdown-menu {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        box-shadow: none; 
+        padding-top: 10px;
+        padding-bottom: 10px; 
+    }   
+}
+@media (min-width: 992px) {
+    .carousel-caption h1 { font-size: 60px; }
+    .carousel-caption h4 { font-size: 24px; }
+    .btn-lg { font-size: 28px; }
+    .jumbotron h3 { font-size: 30px; } 
+}
+@media (max-width: 767px) {
+    #footer-top, #social-media { text-align: center; }
+    #navbar-collapse {padding-left: 30px; } 
+}
+

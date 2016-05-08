@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- IE Edge Meta Tag -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap Minified CSS --> 
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Optional IE8 Support -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+  <title>Shadow Theater</title>
+</head>
+<body>
+<div id="wrapper">
+<!-- Default navigation bar--> 
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Movile Navigation -->
+    <div class="navbar-header">
+      <button type="button" role="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+      data-target="#navbar-collapse" aria-haspopup="true" aria-expanded="true">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand main" href="index.html" role="button">Shadow Theater</a>
+    </div>
+
+    <!-- Navigation -->
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- Links --> 
+        <li><a href="about.html" class="main">About</a></li>
+        
+        <!-- Dropdown link listing productions --> 
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle main" id="productions" data-toggle="dropdown" 
+          role="button" aria-haspopup="true" aria-expanded="true">Works <span 
+          class="caret"></span></a>
+        <span class="sr-only">Toggle current and past productions</span>
+          <ul class="dropdown-menu" aria-labelledby="productions">
+            <li class="dropdown-header">Upcoming</li>
+            <li><a href="currentProduction.html">Production Name</a></li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown-header">Past</li>
+            <li><a href="currentProduction.html">Production Name</a></li>
+            <li><a href="currentProduction.html">Production Name</a></li>
+            <li><a href="currentProduction.html">Production Name</a></li>
+          </ul>
+        </li>
+        
+        <!-- Links --> 
+        <li><a href="calendar.html" class="main">Calendar</a></li>
+        <li><a href="getInvolved.html" class="main">Get Involved</a></li>
+        <li><a href="contact.html" class="main">Contact</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Contact Section -->  
+<div class="container-fluid">
+  <section class="container col-md-4">
+    <h1>Contact</h1>
+    <p>Etiam graeco torquatos in eos, ut vim facer audire suavitate. Ne modo soluta vel, 
+    doming euismod aliquid in vel.</p>
+    <address>
+      <strong>Shadow Theater</strong><br>
+      1355 Market Street, Suite 900<br>
+      San Francisco, CA 94103<br>
+      <abbr title="Phone">P:</abbr> (123) 456-7890
+    </address>
+    <div id="contact-social-media">
+      <a href="#"><img class="img-circle" src="assets/facebookIcon.jpg">        
+      <span class="sr-only">(facebook icon)</span></a>
+      <a href="#"><img class="img-circle" src="assets/twitterIcon.jpg">
+      <span class="sr-only">(twitter icon)</span></a>
+      <a href="#"><img class="img-circle" src="assets/mailIcon.jpg">
+      <span class="sr-only">(email icon)</span></a> 
+    </div>
+  </section>
+  
+  <!-- Contact Form --> 
+  <section class="container col-md-4" id="contactForm">
+    <form> 
+      <div class="form-group">
+        <label class="sr-only" for="inputName">Name</label>
+        <input class="form-control" type="text" id="inputName" placeholder="Name">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="inputEmail">Email</label>
+        <input class="form-control" type="email" id="inputEmail" placeholder="Email">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="inputSubject">Name</label>
+        <input class="form-control" type="text" id="inputSubject" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="inputMessage">Message</label>
+        <textarea class="form-control" class="form-control" id="inputMessage" placeholder="Message"></textarea> 
+      </div>
+      <button type="submit" class="btn btn-default">Send</button>
+  </form> 
+  </section>
+  
+  <!-- Google Maps --> 
+  <section class="container col-md-4" id="googleMap">
+    <p class="sr-only">Google map describing the location of the theater.</p> 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12433.928077403332!2d-104.87027529659169!3d38.8214203794822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87135adf2826c27d%3A0x8efff688f845c75!2sBear+Creek+Regional+Park!5e0!3m2!1sen!2sus!4v1454318823020" 
+      width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </section>
+    
+</div> 
+
+<footer class="footer" role="contentinfo">
+  <!--Top section-->
+  <div class="container-fluid" id="footer-top">
+    <div class="container col-sm-4" id="footer-nav">
+      <a class="footer-brand main" href="index.html" role="button">Shadow Theater</a>
+      <ul class="list-unstyled">
+      <!-- footer navigation --> 
+        <li><a href="about.html">About</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="getInvolved.html">Get Involved</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    
+    <div class="container col-sm-4" id="money-btn">
+    <!-- Money Buttons --> 
+      <div class="btn-group-vertical" role="group" aria-label="...">
+        <a class="btn btn-default btn-lg" href="#" role="button">Get Tickets</a>
+        <a class="btn btn-default btn-lg" href="#" role="button">Donate</a>
+      </div>
+    </div> 
+    
+    <div class="container col-sm-4" id="social-media">
+    <!-- Social Media Links --> 
+      <h3>Connect</h3>
+      <a href="#"><img class="img-circle" src="assets/facebookIcon.jpg">        
+      <span class="sr-only">(facebook icon)</span></a>
+      <a href="#"><img class="img-circle" src="assets/twitterIcon.jpg">
+      <span class="sr-only">(twitter icon)</span></a>
+      <a href="#"><img class="img-circle" src="assets/mailIcon.jpg">
+      <span class="sr-only">(email icon)</span></a>
+    </div>
+  </div>
+  
+  <!--Bottom section-->
+  <div class="container-fluid" id="footer-bottom">
+    <p>@ 2016 Shadow Theater</p>
+  </div>
+</footer>
+</div> 
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</body>
+</html> 
